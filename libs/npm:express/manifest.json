@@ -1,0 +1,10 @@
+{
+    "name": "Express",
+    "icon": "jsIconGreen.svg",
+    "summary": "A port of express.js to anura",
+    "desc": "Some methods may be broken-- express.static fails as anura doesn't support FS Streams but this is a mostly complete port of express.js to anura",
+    "package": "npm:express",
+    "data": "lib.zip",
+    "version": "1.0.0",
+    "category": "lib"
+}

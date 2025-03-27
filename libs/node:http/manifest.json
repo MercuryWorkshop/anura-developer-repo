@@ -1,0 +1,10 @@
+{
+    "name": "Node std HTTP",
+    "icon": "jsIconGreen.svg",
+    "summary": "A polyfill of node http to anura",
+    "desc": "A polyfill for node:http's createServer, use as (await anura.import('node:http')).http",
+    "package": "node:http",
+    "data": "lib.zip",
+    "version": "1.0.0",
+    "category": "lib"
+}

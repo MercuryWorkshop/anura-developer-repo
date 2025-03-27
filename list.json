@@ -1,26 +1,6 @@
 {
   "apps": [
     {
-      "name": "SSH",
-      "icon": "ssh.png",
-      "summary": "A SSH client powered by wsproxy",
-      "desc": "A SSH client powered by wsproxy",
-      "package": "anura.SSH",
-      "data": "app.zip",
-      "version": "1.0.0",
-      "category": "Utility"
-    },
-    {
-      "name": "glxgears",
-      "icon": "glxicon.png",
-      "summary": "The hit game, now on Anura",
-      "desc": "One of the most critically acclaimed games, now on Anura.",
-      "package": "anura.glxgears",
-      "data": "app.zip",
-      "version": "1.0.0",
-      "category": "game"
-    },
-    {
       "name": "chIDE",
       "icon": "visual-studio-code.svg",
       "summary": "The one and only anura IDE",
@@ -31,56 +11,6 @@
       "category": "Utility"
     },
     {
-      "name": "Snae Player",
-      "icon": "icon.png",
-      "summary": "A music client ported to Anura",
-      "desc": "A music client ported to Anura",
-      "package": "anura.music",
-      "data": "app.zip",
-      "version": "1.0.0",
-      "category": "Utility"
-    },
-    {
-      "name": "VNC Client",
-      "icon": "vnc.png",
-      "summary": "A VNC client powered by wsproxy",
-      "desc": "A VNC client powered by wsproxy, for use in anura.",
-      "package": "anura.vnc",
-      "data": "app.zip",
-      "version": "1.0.2",
-      "category": "Utility"
-    },
-    {
-      "name": "Desmos",
-      "icon": "icon.png",
-      "summary": "A popular web graphing calculator.",
-      "desc": "One of the most popular web graphing calculators, now in anura.",
-      "package": "com.desmos.app",
-      "data": "app.zip",
-      "version": "1.0.0",
-      "category": "Utility"
-    },
-    {
-      "name": "Discord",
-      "icon": "discord.png",
-      "summary": "An anura app for the popular chat app",
-      "desc": "iFramed version of discord to work with hcaptcha",
-      "package": "discord.app",
-      "data": "app.zip",
-      "screenshots": [
-        {
-          "path": "screenshots/something.png",
-          "desc": "(screenshot desc)"
-        },
-        {
-          "path": "screenshots/something2.png",
-          "desc": "(screenshot desc)"
-        }
-      ],
-      "version": "1.0.0",
-      "category": "chat"
-    },
-    {
       "name": "Anura Debugger",
       "icon": "terminal.svg",
       "summary": "Anura Debugger",
@@ -89,68 +19,28 @@
       "data": "app.zip",
       "version": "1.0.0",
       "category": "Utility"
-    },
-    {
-      "name": "run 3",
-      "icon": "run.png",
-      "summary": "A 3D platformer",
-      "desc": "A simple 3D platformer where you run through space",
-      "package": "games.run3",
-      "data": "app.zip",
-      "screenshots": [
-        {
-          "path": "screenshots/something.png",
-          "desc": "(screenshot desc)"
-        },
-        {
-          "path": "screenshots/something2.png",
-          "desc": "(screenshot desc)"
-        }
-      ],
-      "version": "1.0.0",
-      "category": "game"
-    },
-    {
-      "name": "Touhou 4",
-      "icon": "th4.png",
-      "summary": "Port of Lotus Land Story",
-      "desc": "Port of Touhou 4: Lotus Land Story for Anura",
-      "package": "games.th4e",
-      "data": "app.zip",
-      "screenshots": [
-        {
-          "path": "screenshots/something.png",
-          "desc": "(screenshot desc)"
-        },
-        {
-          "path": "screenshots/something2.png",
-          "desc": "(screenshot desc)"
-        }
-      ],
-      "version": "1.0.0",
-      "category": "game"
     }
   ],
   "libs": [
     {
-      "name": "Flash",
-      "icon": "flash.svg",
-      "summary": "A plugin to run SWF Files",
-      "desc": "An anura plugin that adds a file handler for SWF Files",
-      "package": "anura.flash.handler",
+      "name": "Express",
+      "icon": "jsIconGreen.svg",
+      "summary": "A port of express.js to anura",
+      "desc": "Some methods may be broken-- express.static fails as anura doesn't support FS Streams but this is a mostly complete port of express.js to anura",
+      "package": "npm:express",
       "data": "lib.zip",
-      "screenshots": [
-        {
-          "path": "screenshots/something.png",
-          "desc": "(screenshot desc)"
-        },
-        {
-          "path": "screenshots/something2.png",
-          "desc": "(screenshot desc)"
-        }
-      ],
-      "version": "1.0.1",
-      "category": "plugin"
+      "version": "1.0.0",
+      "category": "lib"
+    },
+    {
+      "name": "Node std HTTP",
+      "icon": "jsIconGreen.svg",
+      "summary": "A polyfill of node http to anura",
+      "desc": "A polyfill for node:http's createServer, use as (await anura.import('node:http')).http",
+      "package": "node:http",
+      "data": "lib.zip",
+      "version": "1.0.0",
+      "category": "lib"
     }
   ]
 }
