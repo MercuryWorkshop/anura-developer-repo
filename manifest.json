@@ -1,9 +1,9 @@
 {
-  "name": "Anura App Repository",
+  "name": "Anura Developer Repository",
   "maintainer": {
     "name": "Mercury Workshop",
     "email": "support@mercurywork.shop",
     "website": "mercurywork.shop"
   },
-  "version": "2.0.2"
+  "version": "1.0.0"
 }
