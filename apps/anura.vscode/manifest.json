@@ -1,0 +1,10 @@
+{
+    "name": "Visual Studio Code",
+    "icon": "code-512.png",
+    "summary": "VSCode code-oss distribution",
+    "desc": "VSCode for anura-sw 2.1",
+    "package": "anura.vscode",
+    "data": "app.zip",
+    "version": "1.0.0",
+    "category": "Utility"
+}
